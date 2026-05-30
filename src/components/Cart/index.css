@@ -1,0 +1,72 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+.summaryCart {
+  align-self: flex-end;
+  width: 250px;
+  border: 1px solid;
+  border-color: aliceblue;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+.summarybutton {
+  width: 100%;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  color: #ffffff;
+}
+
+.removeButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #3b82f6;
+  align-self: flex-end;
+  font-weight: 500;
+}
+
+.spanText {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Write your CSS here */
