@@ -1,1 +1,16 @@
 /* Write your CSS here */
+.popupContainer {
+  height: 300px;
+  width: 300px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.paymentElement {
+  height: 20px;
+  width: 20px;
+}
+
+.paymentLabel {
+  width: 100%;
+}
